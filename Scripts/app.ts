@@ -2,7 +2,7 @@
     function Start(){
         const student: objects.Student = new objects.Student(23, "Manthan", "P12345");
     student.saysHello();
-student.studies();
+        student.studies();
     }
     window.addEventListener("load", Start);
 })();     
